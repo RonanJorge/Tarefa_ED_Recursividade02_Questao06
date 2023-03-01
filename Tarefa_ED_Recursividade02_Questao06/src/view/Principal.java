@@ -1,8 +1,8 @@
 /* Nome: Ronan Jorge
  * Data: 28/02/2023
- * Objetivo: 03) Criar uma aplicação em Java que tenha uma função recursiva que,
- * recebendo um número inteiro (N), apresente a saída da somatória
- * S = 1 + 1/2! + 1/3! + 1/4! + … + 1/N!*/
+ * Objetivo: 06) Criar uma aplicaÃ§Ã£o em Java que tenha uma funÃ§Ã£o recursiva que,
+ * recebendo um nÃºmero inteiro (N), apresente a saÃ­da da somatÃ³ria
+ * S = 1 + 1/2! + 1/3! + 1/4! + â€¦ + 1/N!*/
 
 package view;
 
@@ -14,7 +14,7 @@ public class Principal {
 	public static void main(String[] args) {
 		OperacoesController op = new OperacoesController();
 		double n = Double.parseDouble(JOptionPane.showInputDialog("Entre com o valor de n:"));
-		System.out.println("1 + 1/2! + 1/3! + 1/4! + … + 1/n! = "+ op.sum(n));
+		System.out.println("1 + 1/2! + 1/3! + 1/4! + â€¦ + 1/n! = "+ op.sum(n));
 	}
 
 }
